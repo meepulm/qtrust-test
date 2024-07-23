@@ -1,0 +1,116 @@
+/* -----------------------------------------
+            File Setup
+-------------------------------------------- */
+@import './base.css';
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* -----------------------------------------
+            Sidebar
+-------------------------------------------- */
+#sidebar .active svg path {
+  @apply fill-[var(--primary-red-100)];
+}
+
+#sidebar svg path {
+  @apply fill-[var(--neutral-gray-100)];
+}
+
+/* -----------------------------------------
+            Card
+-------------------------------------------- */
+.card {
+  @apply bg-white rounded-[12px] text-black;
+}
+
+.card .card-header {
+  @apply px-[24px] py-[16px] border-b-[1px] border-[var(--neutral-light-100)] flex justify-between items-center;
+}
+
+.card .card-header h6 {
+  @apply font-bold;
+}
+
+.card .card-body {
+  @apply p-[16px];
+}
+
+@media (max-width: 768px) {
+  .card-header {
+    @apply flex-col !items-start gap-3;
+  }
+
+  .card-header > div {
+    @apply flex-col !items-start gap-2;
+  }
+}
+
+/* -----------------------------------------
+            Chart
+-------------------------------------------- */
+#chart-replacement-reasons .apexcharts-legend-marker {
+  @apply !w-[16px] !h-[16px];
+}
+
+/* -----------------------------------------
+            Table
+-------------------------------------------- */
+table {
+  @apply w-full font-['Montserrat'];
+}
+
+table tr > * {
+  @apply px-8;
+}
+
+table tbody tr:first-child td {
+  @apply pt-7;
+}
+
+table tbody tr:last-child td {
+  @apply pb-8;
+}
+
+table tr th {
+  @apply py-4 border-b-[1px] border-[var(--neutral-light-100)];
+}
+
+table tr th:first-child {
+  @apply text-left;
+}
+
+table tr td {
+  @apply py-2;
+}
+
+table tr td:not(:first-child) {
+  @apply text-center;
+}
+
+/* -----------------------------------------
+            Form
+-------------------------------------------- */
+select {
+  @apply flex items-center bg-white text-black border border-[var(--neutral-light-100)] pl-[8px] pr-[16px] py-[11px] rounded-[6px] text-[14px];
+}
+
+.v-calendar .input-field input {
+  height: 43px !important;
+}
+
+.v-calendar .input-field svg.datepicker {
+  fill: black !important;
+}
+
+/* -----------------------------------------
+            Tooltip
+-------------------------------------------- */
+.tooltip:hover > div,
+.tooltip:hover .arrow {
+  @apply block;
+}
+
+.tooltip .arrow {
+  @apply absolute left-[33px] top-[50%] -translate-y-1/2  w-[16px] h-[16px] bg-white border-[1px] border-[var(--neutral-light-100)] rotate-45 z-[1];
+}

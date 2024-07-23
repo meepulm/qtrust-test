@@ -1,0 +1,68 @@
+{
+  "replacementReasons": [
+    {
+      "id": 1,
+      "year": "2024",
+      "reason": [
+        {
+          "name": "Rusak",
+          "color": "#4e80ed",
+          "data": [45, 78, 22, 59, 34, 67]
+        },
+        {
+          "name": "Hilang",
+          "color": "#f2bc80",
+          "data": [50, 37, 29, 64, 45, 80]
+        },
+        {
+          "name": "Lain-lain",
+          "color": "#888888",
+          "data": [33, 47, 21, 55, 38, 73]
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "year": "2023",
+      "reason": [
+        {
+          "name": "Rusak",
+          "color": "#4e80ed",
+          "data": [28, 55, 39, 72, 41, 67]
+        },
+        {
+          "name": "Hilang",
+          "color": "#f2bc80",
+          "data": [39, 63, 27, 54, 30, 78]
+        },
+        {
+          "name": "Lain-lain",
+          "color": "#888888",
+          "data": [42, 51, 33, 60, 45, 69]
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "year": "2022",
+      "reason": [
+        {
+          "name": "Rusak",
+          "color": "#4e80ed",
+          "data": [33, 47, 21, 65, 40, 58]
+        },
+        {
+          "name": "Hilang",
+          "color": "#f2bc80",
+          "data": [44, 59, 28, 67, 34, 77]
+        },
+        {
+          "name": "Lain-lain",
+          "color": "#888888",
+          "data": [27, 36, 49, 53, 41, 68]
+        }
+      ]
+    }
+  ],
+  "categories": ["Jan", "Feb", "Mar", "Apr", "May", "Jun"]
+}

@@ -1,0 +1,71 @@
+{
+  "segment": [
+    {
+      "id": 1,
+      "year": "2024",
+      "segment": [
+        {
+          "name": "All Segment",
+          "data": [34, 76, 22, 49, 85, 61]
+        },
+        {
+          "name": "Segment A",
+          "data": [12, 38, 54, 72, 31, 47]
+        },
+        {
+          "name": "Segment B",
+          "data": [54, 17, 43, 68, 29, 51]
+        },
+        {
+          "name": "Segment C",
+          "data": [78, 64, 23, 81, 39, 56]
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "year": "2023",
+      "segment": [
+        {
+          "name": "All Segment",
+          "data": [92, 31, 58, 74, 43, 26]
+        },
+        {
+          "name": "Segment A",
+          "data": [47, 19, 33, 64, 25, 50]
+        },
+        {
+          "name": "Segment B",
+          "data": [64, 21, 39, 58, 22, 48]
+        },
+        {
+          "name": "Segment C",
+          "data": [80, 37, 45, 62, 36, 52]
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "year": "2022",
+      "segment": [
+        {
+          "name": "All Segment",
+          "data": [68, 42, 79, 30, 55, 40]
+        },
+        {
+          "name": "Segment A",
+          "data": [22, 48, 64, 23, 37, 52]
+        },
+        {
+          "name": "Segment B",
+          "data": [50, 29, 41, 63, 21, 47]
+        },
+        {
+          "name": "Segment C",
+          "data": [77, 34, 53, 70, 39, 60]
+        }
+      ]
+    }
+  ],
+  "categories": ["Jan", "Feb", "Mar", "Apr", "May", "Jun"]
+}

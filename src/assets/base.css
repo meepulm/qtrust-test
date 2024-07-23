@@ -1,0 +1,59 @@
+/* -----------------------------------------
+            Color
+-------------------------------------------- */
+:root {
+  /* Primary */
+  --primary-red-100: #d80027;
+
+  /* Secondary */
+  --secondary-yellow-100: #f2bc80;
+  --secondary-green-100: #55b586;
+  --secondary-blue-100: #4e80ed;
+  --secondary-purple-100: #c2b6f6;
+
+  /* Neutral */
+  --neutral-black-100: #414141;
+  --neutral-white-100: #ffffff;
+  --neutral-gray-100: #d9d9d9;
+  --neutral-light-100: #eeeeee;
+  --neutral-frame-100: #f2f5f5;
+}
+
+/* -----------------------------------------
+            Base Setup
+-------------------------------------------- */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  font-weight: normal;
+}
+
+body {
+  background: black;
+  color: var(--neutral-black-100);
+  min-height: 100vh;
+  line-height: 1.2;
+  font-family:
+    Inter,
+    -apple-system,
+    BlinkMacSystemFont,
+    'Segoe UI',
+    Roboto,
+    Oxygen,
+    Ubuntu,
+    Cantarell,
+    'Fira Sans',
+    'Droid Sans',
+    'Helvetica Neue',
+    sans-serif;
+  font-size: 16px;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.text-black {
+  color: var(--neutral-black-100);
+}
